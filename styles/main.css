@@ -289,7 +289,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: flex-end;
     margin: 50px 0;
 }
 
