@@ -104,31 +104,10 @@ body{
     background: url('img/section-bg.png') no-repeat right top;
 }
 
-.section.features{
-    background: url('img/features-bg.jpg') no-repeat center;
-    background-size: cover;
-    text-align: center;
-    padding: 140px 0;
-}
-
-.section.description{
-    background: url('img/description-bg.png') no-repeat left top;
-}
-
-.section.clients{
-    background: url('img/clients-bg.jpg') no-repeat center;
-    background-size: cover;
-}
-
 .section__inner{
     display: flex;
     flex-wrap: wrap;
     padding: 140px 0;
-}
-
-.section__inner.features{
-    padding: 85px 0 55px;
-
 }
 
 .section__item{
@@ -178,10 +157,99 @@ body{
     margin-top: 35px;
 }
 
+/* features */
+.section.features{
+    background: url('img/features-bg.jpg') no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding: 140px 0;
+}
 
+.section__inner.features{
+    padding: 85px 0 55px;
+}
 
+/* description */
+.section.description{
+    background: url('img/description-bg.png') no-repeat left top;
+}
 
+/* browser */
+.section.browser{
+    background-image: none;
+    background-color: #f6f5f3;
+    text-align: center;
+}
 
+.section__browser-image{
+    margin: 0 auto;
+    display: block;
+}
+
+.section__inner.browser{
+    width: 100%;
+    max-width: 780px;
+    padding: 85px 25px 80px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Clients
+================= */
+.clients{
+    background: url('img/clients-bg.jpg') no-repeat center;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.clients__inner{
+    display: flex;
+    
+}
+
+.clients__item{
+    flex: 1 1 0;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.clients__image{
+    border: 2px solid #000;
+}
+
+.clients__title{
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.clients__subtitle{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: #ff6d6d;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+
+}
+
+.clients__text{
+    font-size: 16px;
+    color: #fff;
+    opacity: .66;
+    font-style: italic;
+    line-height: 1.625;
+
+}
+
+.clients__logo{
+    margin: 50px auto 0;
+    display: block;
+}
 
 
 
