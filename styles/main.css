@@ -80,6 +80,15 @@ body{
     cursor: pointer;
 }
 
+.btn.form{
+    width: 265px;
+    height: 50px;
+    /* box-shadow: 1px 1px 5px rgb(0, 0, 0); */
+    /* margin: 0 11px; */
+    margin: 0;
+    display: block;
+}
+
 .btn__play{
     height: 60px;
     width: 60px;
@@ -157,6 +166,11 @@ body{
     margin-top: 35px;
 }
 
+.section__link,
+.section__link a{
+    color: #717171;
+}
+
 /* features */
 .section.features{
     background: url('img/features-bg.jpg') no-repeat center;
@@ -196,6 +210,24 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* form */
+.section.tryNow{
+    background: none;
+    background-color: #323969;
+    text-align: center;
+}
+
+.section__inner.tryNow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.section__title.tryNow{
+    color: #fff;
 }
 
 /* Clients
@@ -251,7 +283,34 @@ body{
     display: block;
 }
 
+/* Form
+================= */
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
 
+.form input{
+    display: block;
+    width: 265px;
+    padding: 18px 28px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 3px;
+    outline: none;
+    background-color: rgba(255, 255, 255, .2);
+    color: #fff;
+}
 
+.form input::placeholder{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 50px;
+}
 
 
